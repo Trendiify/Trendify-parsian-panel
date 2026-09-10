@@ -42,4 +42,4 @@ RUN chmod +x /start-railway.sh /code/start.sh
 
 EXPOSE 8000
 
-ENTRYPOINT ["/start-railway.sh"]
+ENTRYPOINT ["/bin/sh", "/start-railway.sh"]
